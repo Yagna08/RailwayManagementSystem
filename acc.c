@@ -55,8 +55,8 @@ void user() {
     
   lgn:
   
-    puts("Enter Your Username & password");
-    scanf("%s%s", id, pass);
+    puts("Enter Your Username");
+    scanf("%s", id);
     strcpy(str, id);
     strcat(str, " ");
     strcat(str, pass);
